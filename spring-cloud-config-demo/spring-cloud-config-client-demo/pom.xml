@@ -12,6 +12,12 @@
         http://cloud.spring.io/spring-cloud-static/Dalston.SR1/#_spring_cloud_config
      -->
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.3.RELEASE</version>
+    </parent>
+
     <groupId>de.frvabe.spring</groupId>
     <artifactId>spring-cloud-config-client-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -78,5 +84,17 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>de.frvabe.spring.cloudconfig.client.demo.Main</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
