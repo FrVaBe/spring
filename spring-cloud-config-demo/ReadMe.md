@@ -1,6 +1,6 @@
 # Spring Cloud Config Demo
 
-This is a project setup to test and demonstrate the _Spring Cloud Config_ probabilities. It contains two projects
+This is a project setup to test and demonstrate the _Spring Cloud Config_ possibilities. It contains two projects
 * **[spring-cloud-config-server-demo](spring-cloud-config-server-demo)** - a config server example
 * **[spring-cloud-config-client-demo](spring-cloud-config-client-demo)** - a config client example
 
